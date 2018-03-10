@@ -1,0 +1,41 @@
+---
+# vars file for {{ ansible_os_family}}
+_packages:
+  - qtpass
+  - nagstamon
+  - vagrant
+  - sshuttle
+  - shutter
+  - zeal
+  - meld
+  - owncloud-client
+  - wireshark
+  - docker
+  - thunderbird
+_dependances:
+  - geoip-database-extra
+  - libc-ares2
+  - libjs-openlayers
+  - liblua5.2-0
+  - libnl-3-200
+  - libnl-genl-3-200
+  - libnl-route-3-200
+  - libpcap0.8
+  - libsbc1
+  - libsmi2ldbl
+  - libssh-gcrypt-4
+  - libwireshark-data
+  - libwireshark8
+  - libwiretap6
+  - libwscodecs1
+  - libwsutil7
+  - wireshark-common
+  - wireshark-qt
+  - wireshark-gtk
+  - libevent-2.0-5
+  - lightning
+
+_deb:
+  - "https://github.com/jgraph/drawio-desktop/releases/download/v8.0.6/draw.io-amd64-8.0.6.deb"
+  - "https://github.com/RocketChat/Rocket.Chat.Electron/releases/download/2.10.5/rocketchat_2.10.5_amd64.deb"
+  - "https://atom.io/download/deb"

@@ -1,0 +1,5 @@
+### for remote add computer ###
+x.x.x.x     ansible_connection=ssh(optional)    ansible_user=root
+### for localhost
+# localhost   ansible_connection=local
+localhost   ansible_connection=local
