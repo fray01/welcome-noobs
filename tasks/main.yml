@@ -1,5 +1,11 @@
 ---
 # tasks file for welcome-noobs
+- name: Make a copy of project into ansible folder
+  - copy:
+    src: ~/welcome-noobs
+    dest: /etc/ansible/roles/
+    directory_mode: yes
+    mode: 0644
 
 - name: Load a variable file based on the OS type, or a default if not found. Using free-form to specify the file.
   include_vars: "{{ item }}"
