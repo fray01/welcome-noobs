@@ -15,5 +15,6 @@ _packages:
   - docker
   - thunderbird
   - owncloud
+  - owncloud-client
 _dependances:
   - ''

@@ -21,4 +21,4 @@ sleep 2
 
 #ansible-playbook
 
-ansible-playbook ./welcome-noobs/tests/test.yml -K
+ansible-playbook ~/welcome-noobs/tests/test.yml -K
