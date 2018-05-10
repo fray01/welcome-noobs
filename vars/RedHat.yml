@@ -1,6 +1,7 @@
 ---
 # vars file for {{ ansible_os_family}}
 _packages:
+  - terminator
   - qtpass
   - nagstamon
   - vagrant
